@@ -96,6 +96,7 @@ class LinkedList:
         currentNode= self.head
         currentMax= 0
 
+        # linear search= O(n)
         while currentNode:
           if currentNode.get_value() > currentMax:
             currentMax= currentNode.get_value()
